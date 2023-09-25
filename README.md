@@ -23,3 +23,7 @@ cd /sys/kernel/watchpoint
 echo "0x12345678" > watch_address
 echo "1" > read_watch_enabled
 ```
+5. Check result in dmesg
+```
+dmesg
+```
